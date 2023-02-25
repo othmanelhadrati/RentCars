@@ -1,0 +1,462 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+.A{
+   background-color:#96bacb;
+   background: url(bac.jpg);
+    width: 100%;
+    height: 50px;
+   position: fixed;
+   display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1mm solid   ; 
+border-image: linear-gradient(120deg, #c41414,#47b1e9);
+border-image-slice:1;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+font-weight: 800;
+
+
+
+}
+li{
+ padding: 0px 70px;
+ font-family: Bradley Hand, cursive
+ 
+}
+.p2{
+    font-family: Bradley Hand, cursive;
+    font-size: 15px;
+    align-items: center;
+display: flex;
+padding-right: 40px;
+padding-top:3px ;
+
+
+padding-left:5px ;
+padding-right:10px ;
+margin-right: 10px;
+margin-left: 15px;
+
+font-weight: bold;
+
+}
+.p1{
+/* color degrade */
+    background-image:    linear-gradient(-120deg, #921414,#2863ec)  ;
+   -webkit-background-clip: text;
+   color: transparent;
+/* fin */
+    font-family: 'Gloock', serif;   
+     font-size: 40px;
+    align-items: center;
+display: flex;
+padding-left: 40px;
+padding-bottom: 40;
+margin-left: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+  .bouton{
+
+    border: 1px solid   ;
+    
+    border-radius: 16px;
+    background: linear-gradient(120deg, #d56363,#47b1e9)  ; 
+    padding-top:3px ;
+
+
+padding-left:10px ;
+padding-right:10px ;
+padding-bottom: 6px;
+padding-top: 6px;
+margin-right: 20px;
+margin-left: 2px;
+
+
+}
+.bouton:hover{
+    background: linear-gradient(-120deg, #d56363,#47b1e9)  ;
+
+}
+
+
+ /*block2*/
+ .BC{
+    background:url(bac.jpg);
+ }
+.B{
+
+width: 90%;
+height: 750px;
+padding-right: 148px;
+margin-right: 50px;
+display: flex; 
+justify-content: space-between;
+}
+
+
+
+.tit{
+font-size:65px ;
+text-align: start;
+margin-left: 60px;
+padding-top: 30px;
+font-family: 'Gloock', serif;   
+}
+.tit1{
+
+    font-size:25px ;
+    font-weight: 600;
+    text-align: start;
+    margin-left: 74px;
+    margin-right: 100px;
+    margin-top:30px ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.barre{
+
+width:70%;
+ height: 300px;
+
+
+    margin-top: 90px;
+    margin-left:130px ;
+
+}
+.order{
+
+    height: 30px;
+    width:10cm ;
+    background: linear-gradient(120deg, #d56363,#47b1e9)  ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-left: 20px;
+    font-family: 'Rowdies', cursive;
+border-radius: 5px;
+
+}
+.order:hover{
+    background: linear-gradient(-120deg, #d56363,#47b1e9)  ;
+
+}
+.B1{
+   
+
+
+margin: 1.5cm;
+margin-left: 25px;
+    height: 500px;
+    width: 19cm;
+  /*shdow cadre*/
+    border-radius: 6px;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+
+border: 1px solid rgba(255,255,255,0.1),rgba(239, 228, 228, 0);
+box-shadow: 0 8px 32px 0 rgba(0,0,0,200);
+
+}
+.img1{
+    
+margin-top: 100px;
+margin-left: -40px;
+
+
+}
+.box1{
+   
+width: 50%;
+height:600px ;
+margin-top: 50px;
+}
+.front{
+    width: 50%;
+height: 16cm;
+margin-left: 175.8px;
+margin-right: 5cm;
+
+
+margin-top:30px ;
+
+background: url(dd\ copie2.png);
+
+}
+.C{
+    width: 100%;
+    height: 600px;
+ 
+
+
+
+
+}
+.types{
+width: 50%;
+height:3cm ;
+margin-right: 25%;
+margin-left: 25%;
+    border: 1mm dashed;
+   
+    background: #47b0e94b;
+    box-shadow: 8px 8px 50px 5px #131515c9;
+    border-image: linear-gradient(120deg, #c41414a6,#47b0e9c2);
+    border-image-slice:1;
+
+
+}
+
+   
+.types1{
+width: 89.5%;
+height:5cm ;
+margin-top: 2cm;
+margin-left: 6%;
+
+
+border: #c2e1e4; /* code de couleur background*/
+    border-radius: 3px;
+
+    background:linear-gradient(135deg,#47b0e927,#47b0e939);
+
+border: 1px solid rgba(7, 135, 247, 0),rgba(239, 228, 228, 0);
+box-shadow: 0 8px 32px 0 #1a1616a0;
+
+}
+
+    
+
+.brand1{
+    /*to make a lot of div in the same line not uset yet */
+   display: inline-block;
+background-color:  rgba(28, 4, 4, 0.26) ;
+    
+border-radius: 6px;
+width: 4cm;
+height: 4cm;
+margin-top: 0.5cm ;
+margin-left: 0.5cm;
+
+
+}
+.brand1:hover{
+  
+  /* effet dyal border kidkhel o ykhrej  not uset yet*/
+  padding: 2mm;
+margin-top: 3mm;
+margin-left: 3mm;
+ 
+  
+    
+
+background-color: rgba(34, 19, 19, 0.705) ;
+box-shadow: 0 8px 32px 0 rgba(21, 23, 25, 0.818);
+border-radius: 6px;
+
+}
+
+
+.a1:hover{
+   
+        width: 5.5cm ;
+      height: 5cm;
+       margin-left: -7mm;    
+      margin-top:-4mm ;            
+       }
+        
+
+
+.brand2{
+    /*to make a lot of div in the same line */
+   display: inline-block;
+background-color: rgba(105, 105, 105, 0.26);
+    
+border-radius: 6px;
+width: 4cm;
+height: 4cm;
+margin-top: 0.5cm ;
+margin-left: 1cm;
+
+
+}
+.brand2:hover{
+  
+    /* effet dyal border kidkhel o ykhrej */
+    padding: 2mm;
+margin-top: 3mm;
+margin-left: 6mm;
+    
+      
+  
+  background-color: rgba(34, 19, 19, 0.705);
+  box-shadow: 0 8px 32px 0 rgb(12, 96, 214);
+  border-radius: 6px;
+  
+  }
+
+
+
+
+
+.a{
+
+    align-items: center;
+    display: flex;
+}
+.a7{
+
+    margin-top: 3.5mm;
+    margin-left: 4mm;
+}
+.a6{
+    margin-top: 3mm;
+
+    }
+.a5{
+    margin-top: 3.5mm;
+    
+        }
+.a4{
+    margin-top: 7mm;
+    margin-left: 6mm;
+        
+            }
+.a3{
+
+    margin-top: 8mm;
+    margin-left: 5mm;
+                }
+ .a2{
+
+   margin-top: 6mm;
+   margin-left: 4mm;
+                    }
+
+  .a2:hover{
+    width: 4.5cm ;
+    height: 3.5cm;
+         margin-left: -2mm;    
+         margin-top:3mm ;            
+                                            
+    }
+    .a3:hover{
+        width: 3.5cm ;
+        height: 2.5cm;
+             margin-left: 2mm;    
+             margin-top:7mm ;            
+                                                
+        }
+        .a4:hover{
+            width: 4.3cm ;
+            height: 3.3cm;
+                 margin-left: -1.2mm;    
+                 margin-top:3mm ;            
+                                                    
+            }
+.a5:hover{
+   width: 4.8cm ;
+    height: 4.1cm;
+     margin-left: -3.5mm;    
+      margin-top:-1mm ;            
+                                                        
+                }          
+.a6:hover{
+   width: 4.8cm ;
+ height: 4.1cm;
+  margin-left: -3.5mm;    
+ margin-top:-1mm ;            
+  } 
+  .a7:hover{
+    width: 4.8cm ;
+  height: 4.1cm;
+   margin-left: -3.5mm;    
+  margin-top:-1mm ;            
+   } 
+   .a4:hover{
+    width: 4.5cm ;
+  height: 4.1cm;
+   margin-left: -2.5mm;    
+  margin-top:-1mm ;            
+   }
+   .a3:hover{
+    width: 3.5cm ;
+  height: 3cm;
+   margin-left: 2.5mm;    
+  margin-top:3.5mm ;            
+   }
+
+
+.brand3{
+    /*to make a lot of div in the same line */
+   display: inline-block;
+background-color: rgba(28, 4, 4, 0.26);
+    
+border-radius: 6px;
+width: 4cm;
+height: 4cm;
+margin-top: 0.5cm ;
+margin-left: 1cm;
+
+
+}
+.brand3:hover{
+  
+    padding: 2mm;
+margin-top: 3mm;
+margin-left: 8mm;
+    
+      
+  
+  background-color: rgba(34, 19, 19, 0.705);
+  box-shadow: 0 8px 32px 0 rgba(12, 16, 20, 0.892);
+  border-radius: 6px;
+  
+  }
+  .brandtitle{
+
+width: 10cm;
+height: 2cm;
+margin-left: 4.9cm ;
+margin-top: 0.4cm;
+border-radius: 5px;
+  }
+  .brandp{
+
+text-align: center;
+font-family: 'Gloock', serif;
+font-size:40px;
+  }
+
+
+
+
+
+
+
+
+
+        
+
+
+      
+    
+
+
+
+  
+
+ 
+
+
+
